@@ -1,0 +1,167 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background:hsl(270, 20%, 96%);
+}
+.bg-left{
+    background:linear-gradient(to bottom,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    position: absolute;
+    height: 100vh;
+    width:30%;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    left:-100px;
+    bottom:100px;
+}
+.bg-right{
+    background-color:hsla(206, 7%, 79%, 0.233);
+    position: absolute;
+    height: 80vh;
+    width:20%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 0px;
+    bottom: 0;
+    right: 0;
+}
+.About{
+    margin-top:220px;
+}
+.About h1{
+    color: hsl(271, 36%, 24%);
+    font-size:50px;
+}
+.About p{
+    color: hsl(270, 7%, 64%);
+    font-weight: 400;
+    font-size:20px;
+}
+.mobile{
+    z-index: 10;
+}
+.mobile-outline{
+    height: 650px;
+    width:320px;
+    margin-top:100px;
+    margin-bottom: 40px;
+    border-width:12px;
+    border-color:white;
+    border-radius:30px;
+    border-style: solid;
+    box-shadow:3px 5px hsla(268, 7%, 64%, 0.205);
+}
+.chat-heading{
+    height:70px;
+    background:linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    overflow:hidden;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    box-shadow: 0px 3px 0px 0px hsla(268, 7%, 64%, 0.582);
+}
+.heading-gap{
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color:white !important;
+    width: 130px;
+    height: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.heading-info{
+    color: white;
+}
+.profile-photo{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border:1px solid white;
+}
+.profile-status{
+    font-size:12px;
+}
+.chat-screen{
+    background-color: hsl(270, 20%, 96%) !important;
+    height: 510px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.received{
+    width:65%;
+    color:hsl(276, 55%, 52%);
+    background:hsla(276, 100%, 81%, 0.3);
+    align-self: flex-start;
+    border-radius:15px;
+}
+.received p{
+    font-size:11px;
+}
+.sent-images{
+    margin-left:82px;
+    margin-bottom: 10px;
+}
+.dog{
+    width:55px;
+    height:55px;
+    margin-left:10px;
+    border-radius:15px;
+}
+.sent-1{
+    color:hsl(271, 15%, 43%);
+    width:60%;
+    display: flex;
+    align-items: flex-end;
+    margin-left:auto;
+}
+.sent-1 p{
+    font-size:11px;
+    background:white;
+    border-radius: 15px;
+}
+.sent-2{
+    color:hsl(271, 15%, 43%);
+    width:40%;
+    margin-left:auto;
+    margin-right:0;
+}
+.sent-2 p{
+    font-size:11px;
+    background:white;
+    border-radius: 15px;
+}
+.prices{
+    background:linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    font-size:12px;
+    border-radius:15px 15px 15px 5px;
+    width:75%;
+}
+.prices h5, .prices p{
+    color:rgba(255, 255, 255, 0.904);
+}
+.prices i{
+    color:hsl(289, 100%, 72%);
+}
+.message input{
+    border:0px !important;
+    width:300px;
+    height: 35px;
+    border-radius:15px;
+    padding-left: 5px;
+}
+.message i{
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    padding:10px 12px;
+    color:white;
+}
+@media screen and (max-width:850px) and (min-width:250px){
+    .bg-left{
+        width:50%;
+    }
+    .About{
+        margin-top:40px;
+        margin-bottom: 20px;
+    }
+    .bg-right{
+        width:0;
+    }
+}
